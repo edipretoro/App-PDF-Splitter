@@ -1,5 +1,6 @@
+package App::PDF::Splitter;
+
 use strict;
 use warnings;
-package App::PDF::Splitter;
 
 1;
