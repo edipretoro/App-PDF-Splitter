@@ -15,7 +15,7 @@ sub run {
     [ 'spreadsheet|s=s', 'path to the spreadsheet', { required => 1 } ],
     [ 'directory|d=s', 'path to the directory where the PDF are stored', { required => 1 } ],
     [],
-    [ 'help', 'print usage message and exit' ],
+    [ 'help|h', 'print usage message and exit' ],
   );
   print ( $usage->text ), exit if $options->help();
 }
