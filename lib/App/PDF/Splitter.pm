@@ -1,4 +1,5 @@
 package App::PDF::Splitter;
+# ABSTRACT: a simple script to extract relevant information from PDF files
 
 use strict;
 use warnings;
